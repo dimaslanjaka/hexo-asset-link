@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "tsc"
+    "clean": "tsc -b --clean",
+    "build": "tsc -b"
   },
   "repository": {
     "type": "git",
