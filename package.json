@@ -1,6 +1,6 @@
 {
   "name": "hexo-asset-link",
-  "version": "2.2.3",
+  "version": "2.3.1",
   "description": "Convert Markdown style asset links to HTML style ones.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.7.4",
+    "binary-collections": "^2.0.10",
     "hexo": "workspace:^",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
